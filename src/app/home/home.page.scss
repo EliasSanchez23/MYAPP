@@ -1,27 +1,24 @@
-#container {
+ /* Establece la altura del carrusel */
+ #carouselExampleIndicators {
+  height: 150px;
+}
+
+/* Asegúrate de que las imágenes se ajusten al contenedor del carrusel */
+#carouselExampleIndicators .carousel-item img {
+  height: 100%;        /* Hace que las imágenes ocupen el 100% de la altura del carrusel */
+  width: 100%;         /* Hace que las imágenes ocupen todo el ancho */
+  object-fit: cover;   /* Ajusta la imagen para cubrir todo el área sin deformarse */
+}
+.example {
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.card-img-top {
+  height: 200px;      /* Ajusta la altura de las imágenes de las tarjetas */
+  object-fit: cover;  /* Ajusta las imágenes para cubrir todo el área sin deformarse */
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.custom-background {
+  background-color: #aeeeee; /* Color celeste claro */
 }
-
-#container a {
-  text-decoration: none;
+.footer-white {
+  background-color: #ffffff; /* Color blanco para el fondo del footer */
 }
